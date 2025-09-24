@@ -1,0 +1,60 @@
+.container {
+    max-width: 500px;
+    border: 2px solid red;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.container:hover {
+    border: 2px solid rgb(186, 186, 234);
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+.container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #666;
+}
+.container input[type="email"],
+.container input[type="password"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container button[type="submit"]:hover {
+    background-color: #0069d9;
+}
+.signup {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.signup a {
+    text-decoration: none;
+    color: #007bff;
+}
+.signup a:hover {
+    text-decoration: underline;
+}

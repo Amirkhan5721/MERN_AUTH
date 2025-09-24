@@ -1,0 +1,36 @@
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.container p {
+    margin-bottom: 30px;
+    color: #666;
+    font-size: 20px;
+}
+.btn {
+    margin-bottom: 12px;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn:hover {
+    background-color: #3e8e41;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+    font: 700;
+}

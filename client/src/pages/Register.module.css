@@ -1,0 +1,42 @@
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.container h2 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+.container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
